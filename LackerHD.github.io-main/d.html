@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кнопки с эффектами</title>
+    <style>
+        .expl-btn {
+            display: inline-block;
+            width: 250px;
+            margin: 0 20px 20px 0;
+            height: 40px;
+            padding: 10px 15px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            text-transform: none;
+            vertical-align: top;
+            border-radius: 3px;
+            line-height: 1.2;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .demo-btn-gradient {
+            background-size: 200% auto;
+            background-image: linear-gradient(to right, #01abbf 0%, #12c9de 51%, #01abbf 100%);
+            transition: all 300ms linear 0ms;
+        }
+        
+        .demo-btn-gradient:hover {
+            background-position: right center;
+            transition: background-position 300ms linear 0ms;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#" class="expl-btn demo-btn-gradient">Градиентная ссылка</a>
+</body>
+</html>
